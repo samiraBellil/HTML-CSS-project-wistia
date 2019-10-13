@@ -1,0 +1,217 @@
+/*--Nav contents--*/
+.navContents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    border: solid 1px #bdc3c7;
+    background-color: white;
+}
+
+.navContents img{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+    color: #a4b0be;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border: none; 
+    height: 75px;
+    width: 40%;
+    }
+#signUp{
+    color: #0984e3;
+    font-size: 20px;
+    background: white;
+    border: none;
+    font-family: fantasy;
+    padding: 10px 20px;
+}
+#logo{
+    color: #95a5a6;
+    font-size: 20px;
+    background: white;
+    border: none;
+    font-family: fantasy;
+    padding: 10px 20px;
+}
+/*--header contents--*/
+
+.mainheader{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(217, 128, 250);
+    height: 600px;
+    width: 100%;
+}
+header :first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 130%;
+}
+#VideoSoftware{
+    display: flex;
+    align-self: flex-start;
+    color: rgb(245, 246, 250);
+}
+#WatchVideo{
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 100%;
+    height: 50px;
+    width: 150px;
+}
+
+/*--article contents--*/
+
+article{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+}
+
+article div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#part1{
+    align-self: center;
+    background: #f1c40f;;
+    height: 300px;
+}
+#WistiaHosting{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ecf0f1;
+    font-size: 35px;
+}
+.para1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+#Underlined{
+    text-decoration-line: underline;
+}
+#Button1{
+    background: none;
+    border-radius: 3px;
+    margin-top: 4px;
+    height: 50px;
+    width: 130px;
+}
+#part2{
+    align-self: center;
+    background: #1dd1a1;
+    height: 300px;
+}
+#Headline{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ecf0f1;
+    font-size: 35px;
+}
+#para2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.Underlined{
+    text-decoration-line: underline;
+}
+.Button2{
+    background: none;
+    border-radius: 3px;
+    margin-top: 4px;
+    height: 50px;
+    width: 130px;
+}
+
+#part3{
+    align-self: center;
+    background: #0abde3;
+    height: 300px;
+}
+.Headline{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ecf0f1;
+    font-size: 35px;
+}
+#para3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+#Button3{
+    background: none;
+    border-radius: 3px;
+    margin-top: 4px;
+    height: 50px;
+    width: 130px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    height: 400px;
+}
+#WisitaPlatform{
+    color: white;
+    margin-top: 30px;
+}
+.para4{
+    color: white;
+}
+#options{
+    color: #0652DD;
+}   
+.Product{
+    margin-top: 30px;
+    color: white;
+    }
+.Product > p {
+    color: rgb(177, 176, 176);
+    }
+.Company{
+    margin-top: 30px;
+    color: white;
+ }
+.Company > p{
+    color: rgb(177, 176, 176);
+}
+.Learn {
+    margin-top: 30px;
+    color: white;
+    }
+.Learn > p {
+    color: rgb(177, 176, 176);
+    }
+.Support {
+    margin-top: 30px;
+    color: white;
+    }
+.Support > p {
+    color: rgb(177, 176, 176);
+    }
